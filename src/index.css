@@ -262,7 +262,6 @@ body {
 }
 
 .person {
-  border: 2px solid red;
   display: grid;
   grid-template-columns: auto 1fr;
   column-gap: 0.75rem;
@@ -276,10 +275,6 @@ body {
   box-shadow: var(--shadow-3);
 }
 
-/* * {
-  border: 2px solid red;
-} */
-
 main {
   min-height: 100vh;
   display: flex;
@@ -288,7 +283,6 @@ main {
 }
 
 .container {
-  border: 2px solid red;
   width: 90vw;
   max-width: var(--fixed-width);
   margin: 5rem 0;
